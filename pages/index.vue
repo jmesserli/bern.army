@@ -1,5 +1,7 @@
 <template>
-  <div class="container" />
+  <div class="container">
+    <b-jumbotron header="bern.army" lead="Nützliches für Bewohner des Wpl BE" />
+  </div>
 </template>
 
 <script>
