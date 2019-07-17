@@ -1,145 +1,31 @@
 <template>
   <div class="container">
     <h1 class="mt-3">
-      Restaurant Timeout <small class="text-muted">Menüplan</small>
+      Restaurant Timeout
+      <small class="text-muted">
+        Menüplan KW <span>{{ menu.week }}</span>
+      </small>
     </h1>
 
-    <table class="table table-sm mt-3 table-responsive-md">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">
-            Tag
-          </th>
-          <th scope="col">
-            Tagesteller
-          </th>
-          <th scope="col">
-            Pasta-Hit
-          </th>
-          <th scope="col">
-            Nachtessen
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr id="d-1">
-          <th scope="row">
-            Montag
-          </th>
-          <td>
-            <p>Schweinsragout mit Tomaten</p>
-            <p>Broccoli und Kartoffel-Gnocchi</p>
-          </td>
-          <td>
-            <p>Conchiglie ai Funghi</p>
-            <p>(Steinpilze und Zwiebeln an Tomatensauce)</p>
-          </td>
-          <td>
-            <p>Wurst-Käsesalat</p>
-            <p>Schalenkartoffeln</p>
-          </td>
-        </tr>
-
-        <tr id="d-2">
-          <th scope="row">
-            Dienstag
-          </th>
-          <td>
-            <p>
-              <abbr title="Herkunft: Polen">Seelachs</abbr> in Knusperpanade
-            </p>
-            <p>mit Kräuterquarksauce,</p>
-            <p>Blattspinat und Salzkartoffeln</p>
-            <b>Dessert</b>
-          </td>
-          <td>
-            <p>Conchiglie alla Nonna</p>
-            <p>(Rahmsauce mit Speck-, Schinken-,</p>
-            <p>Tomaten- und Peperoniwürfel)</p>
-            <p>oder Tomatensauce</p>
-          </td>
-          <td>
-            <p>Spätzli-Pfanne</p>
-            <p>mit Gemüsewürfeln</p>
-            <p>und Champignons</p>
-            <p>an Sauerrahmsauce</p>
-          </td>
-        </tr>
-
-        <tr id="d-3">
-          <th scope="row">
-            Mittwoch
-          </th>
-          <td>
-            <p>Pouletoberschenkel</p>
-            <p>auf Peperonicoulis,</p>
-            <p>Zucchetti und Tomatennudeln</p>
-          </td>
-          <td>
-            <p>Conchiglie Alfredo</p>
-            <p>(Rahmsauce mit Zwiebeln,</p>
-            <p>Petersilie und Sbrinz)</p>
-          </td>
-          <td>
-            <p>Rinds Meat Balls</p>
-            <p>an Tomatensauce,</p>
-            <p>gebratener Reis mit</p>
-            <p>Gemüse und Ei</p>
-          </td>
-        </tr>
-
-        <tr id="d-4">
-          <th scope="row">
-            Donnerstag
-          </th>
-          <td>
-            <p>Paniertes Schweinsschnitzel</p>
-            <p>Erbsen und Karotten</p>
-            <p>Kartoffelgratin</p>
-            <b>Dessert</b>
-          </td>
-          <td>
-            <p>Conchiglie con Mortadel</p>
-            <p>(Mortadella, Zwiebeln und</p>
-            <p>Peperoni an Pestorahmsauce)</p>
-            <p>oder Tomatensauce</p>
-          </td>
-          <td>
-            <p>Tortelloni mit Spinat</p>
-            <p>und Ricottafüllung</p>
-            <p>an Cinque <b>&pi;</b> Sauce</p>
-          </td>
-        </tr>
-
-        <tr id="d-5">
-          <th scope="row">
-            Freitag
-          </th>
-          <td>
-            <p>Ungarisches Gulasch</p>
-            <p>mit Grünen Bohnen</p>
-            <p>und Pilav-Reis</p>
-          </td>
-          <td>
-            <p>Conchiglie al Tonno</p>
-            <p>(Thunfisch, Sardellen und</p>
-            <p>Oliven an Tomatensauce)</p>
-            <p>oder Tomatensauce</p>
-          </td>
-          <td class="text-muted">
-            <p>Nachtessen nur</p>
-            <p>auf Vorbestellung</p>
-            <p>Menü nach Ansage</p>
-          </td>
-        </tr>
-
-        <tr>
-          <td colspan="4">
-            Salatbüffet mit verschiedenen frischen Salaten
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div v-if="outdated">
+      <p>Der Menüplan der aktuellen Woche wurde noch nicht abgetippt.</p>
+      <b-button
+        v-b-toggle.menu-collapse
+        size="sm"
+        variant="secondary"
+        class="mb-3"
+      >
+        Menüplan der letzten Woche
+      </b-button>
+    </div>
+    <b-collapse id="menu-collapse" :visible="!outdated">
+      <b-table-lite
+        head-variant="dark"
+        :small="true"
+        :fields="menu.fields"
+        :items="menu.items"
+      />
+    </b-collapse>
 
     <h3>Essenszeiten</h3>
     <div class="container">
@@ -181,4 +67,86 @@
   </div>
 </template>
 
-<style></style>
+<script>
+import moment from 'moment'
+
+const dayOfWeek = moment().day()
+
+export default {
+  data() {
+    return {
+      menu: {
+        week: 29,
+        fields: [
+          'tag',
+          'tagesteller',
+          { key: 'pasta-hit', label: 'Pasta-Hit' },
+          'nachtessen'
+        ],
+        items: [
+          {
+            tag: 'Montag',
+            tagesteller:
+              'Schweinsragout mit Tomaten\nBroccoli und Kartoffel-Gnocchi',
+            'pasta-hit':
+              'Conchiglie ai Funghi\n(Steinpilze und Zwiebeln an Tomatensauce)',
+            nachtessen: 'Wurst-Käsesalat\nSchalenkartoffeln',
+            _rowVariant: dayOfWeek === 1 ? 'success' : 'default'
+          },
+          {
+            tag: 'Dienstag',
+            tagesteller:
+              'Seelachs in Knusperpanade\nmit Kräuterquarksauce, Blattspinat und Salzkartoffeln\nDessert',
+            'pasta-hit':
+              'Conchiglie alla Nonna\n(Rahmsauce mit Speck-, Schinken-, Tomaten- und Peperoniwürfel)\noder Tomatensauce',
+            nachtessen:
+              'Spätzli-Pfanne\nmit Gemüsewürfeln und Champignons an Sauerrahmsauce',
+            _rowVariant: dayOfWeek === 2 ? 'success' : 'default'
+          },
+          {
+            tag: 'Mittwoch',
+            tagesteller:
+              'Pouletoberschenkel\nauf Peperonicoulis, Zucchetti und Tomatennudeln',
+            'pasta-hit':
+              'Conchiglie Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)',
+            nachtessen:
+              'Rinds Meat Balls\nan Tomatensauce, gebratener Reis mit Gemüse und Ei',
+            _rowVariant: dayOfWeek === 3 ? 'success' : 'default'
+          },
+          {
+            tag: 'Donnerstag',
+            tagesteller:
+              'Paniertes Schweinsschnitzel\nErbsen und Karotten, Kartoffelgratin\nDessert',
+            'pasta-hit':
+              'Conchiglie con Mortadella\n(Mortadella, Zwiebeln und Peperoni an Pestorahmsauce)\noder Tomatensauce',
+            nachtessen:
+              'Tortelloni mit Spinat und Ricottafüllung\nan Cinque Pi Sauce',
+            _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
+          },
+          {
+            tag: 'Freitag',
+            tagesteller:
+              'Ungarisches Gulasch\nmit grünen Bohnen und Pilav-Reis',
+            'pasta-hit':
+              'Conchiglie al Tonno\n(Thunfisch, Sardellen und Oliven an Tomatensauce)\noder Tomatensauce',
+            nachtessen: 'Nachtessen nur auf Vorbestellung\nMenü nach Ansage',
+            _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
+          }
+        ]
+      }
+    }
+  },
+
+  computed: {
+    outdated() {
+      const isoWeek = moment().week()
+      return isoWeek !== this.menu.week
+    }
+  }
+}
+</script>
+<style>
+table.b-table td {
+  white-space: pre-line;
+}
+</style>
