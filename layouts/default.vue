@@ -13,7 +13,7 @@
             <n-link to="/timeout" tag="b-nav-item" active-class="active">
               Time out
             </n-link>
-            <n-link to="/rs" tag="b-nav-item" active-class="active">
+            <n-link to="/rs" tag="b-nav-item" active-class="active" :event="''">
               RS Woche
             </n-link>
           </b-navbar-nav>
