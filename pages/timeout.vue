@@ -24,6 +24,7 @@
         :small="true"
         :fields="menu.fields"
         :items="menu.items"
+        :responsive="true"
       />
     </b-collapse>
 
