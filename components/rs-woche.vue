@@ -1,18 +1,47 @@
 <template>
-  <div>
-    <b-progress :max="43" height="2rem">
-      <b-progress-bar :value="18" variant="success">
-        RS: 18 / 18
-      </b-progress-bar>
-      <b-progress-bar :value="9" :animated="true">
-        DD: 9 / 25
-      </b-progress-bar>
+  <b-card :title="name" class="mb-2">
+    <p>
+      RS-Woche: {{ week }} / {{ displayTotal }}
+      <span v-if="week > 18">(Durchdiener)</span>
+    </p>
+
+    <b-progress :max="totalWeeks">
+      <b-progress-bar
+        :value="rsWeek"
+        :variant="week <= 18 ? 'primary' : 'success'"
+        :animated="week <= 18"
+      />
+      <b-progress-bar
+        :value="ddWeek"
+        :variant="week > 18 && week <= totalWeeks ? 'primary' : 'success'"
+        :animated="week > 18 && week <= totalWeeks"
+      />
     </b-progress>
-  </div>
+  </b-card>
 </template>
 
 <script>
+import moment from 'moment'
+
 export default {
-  name: 'RsWoche'
+  name: 'RsWoche',
+  props: ['name', 'rsStart', 'rsEnd', 'ddEnd'],
+  computed: {
+    week() {
+      return Math.ceil(moment().diff(this.rsStart, 'weeks', true))
+    },
+    rsWeek() {
+      return Math.min(18, this.week)
+    },
+    ddWeek() {
+      return Math.max(0, this.week - 18)
+    },
+    totalWeeks() {
+      return this.ddEnd.diff(this.rsStart, 'weeks')
+    },
+    displayTotal() {
+      return this.week <= 18 ? 18 : this.totalWeeks
+    }
+  }
 }
 </script>

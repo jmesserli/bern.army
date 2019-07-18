@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="mt-3">
-      Restaurant Timeout
+      Restaurant Time out
       <small class="text-muted">
         Menüplan KW <span>{{ menu.week }}</span>
       </small>
