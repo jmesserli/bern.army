@@ -7,6 +7,15 @@
       </small>
     </h1>
 
+    <b-alert show dismissible variant="warning">
+      Das Restaurant Time out ist vom Montag, 22. Juli bis am Freitag, 9. August
+      geschlossen. Während dieser Zeit können sämtliche Mahlzeiten im
+      <a href="https://goo.gl/maps/8mZWiJUm8wsVBGZbA" class="alert-link">
+        Restaurant Treffpunkt</a
+      >
+      neben der Mehrzweckhalle eingenommen werden.
+    </b-alert>
+
     <div v-if="outdated">
       <p>Der Menüplan der aktuellen Woche wurde noch nicht abgetippt.</p>
       <b-button
