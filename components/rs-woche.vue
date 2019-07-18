@@ -37,7 +37,7 @@ export default {
       return Math.max(0, this.week - 18)
     },
     totalWeeks() {
-      return this.ddEnd.diff(this.rsStart, 'weeks')
+      return Math.ceil(this.ddEnd.diff(this.rsStart, 'weeks', true))
     },
     displayTotal() {
       return this.week <= 18 ? 18 : this.totalWeeks
