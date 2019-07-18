@@ -5,7 +5,7 @@
       <span v-if="week > 18">(Durchdiener)</span>
     </p>
 
-    <b-progress :max="totalWeeks">
+    <b-progress :max="displayTotal">
       <b-progress-bar
         :value="rsWeek"
         :variant="week <= 18 ? 'primary' : 'success'"
