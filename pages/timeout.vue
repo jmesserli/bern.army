@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="mt-3">
-      Restaurant Time out
+      Restaurant <i>Treffpunkt</i>
       <small class="text-muted">
         Menüplan KW <span>{{ menu.week }}</span>
       </small>
@@ -86,7 +86,7 @@ export default {
   data() {
     return {
       menu: {
-        week: 29,
+        week: 30,
         fields: [
           'tag',
           'tagesteller',
@@ -97,48 +97,45 @@ export default {
           {
             tag: 'Montag',
             tagesteller:
-              'Schweinsragout mit Tomaten\nBroccoli und Kartoffel-Gnocchi',
+              'Rindsgeschnetzeltes\nmit getrockneten Tomaten und Champignons\nRübengemüse und Kartoffelstock',
             'pasta-hit':
-              'Conchiglie ai Funghi\n(Steinpilze und Zwiebeln an Tomatensauce)',
-            nachtessen: 'Wurst-Käsesalat\nSchalenkartoffeln',
+              'Fusilli a la Carbonara\n(Rahmsauce mit Speck, Zwiebeln und Petersilie)\noder Tomatensauce',
+            nachtessen: 'Älpler-Maggronen\nmit Apfelmus',
             _rowVariant: dayOfWeek === 1 ? 'success' : 'default'
           },
           {
             tag: 'Dienstag',
             tagesteller:
-              'Seelachs in Knusperpanade\nmit Kräuterquarksauce, Blattspinat und Salzkartoffeln\nDessert',
+              'Gebratenes Zanderfilet\nauf Lauchrahmgemüse mit Ofentomaten und Trockenreis\nDessert',
             'pasta-hit':
-              'Conchiglie alla Nonna\n(Rahmsauce mit Speck-, Schinken-, Tomaten- und Peperoniwürfel)\noder Tomatensauce',
-            nachtessen:
-              'Spätzli-Pfanne\nmit Gemüsewürfeln und Champignons an Sauerrahmsauce',
+              'Gefüllte Pasta con Pesto\n(Basilikum, Spinat, Pinenkerne und Sbrinz mit Olivenöl)',
+            nachtessen: 'Schweinsbraten "Tonato"\nmit Country-Cuts',
             _rowVariant: dayOfWeek === 2 ? 'success' : 'default'
           },
           {
             tag: 'Mittwoch',
             tagesteller:
-              'Pouletoberschenkel\nauf Peperonicoulis, Zucchetti und Tomatennudeln',
+              'Braunes Kalbsvoressen\nmit Karottenstengel und Bramata-Polenta',
             'pasta-hit':
-              'Conchiglie Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)',
-            nachtessen:
-              'Rinds Meat Balls\nan Tomatensauce, gebratener Reis mit Gemüse und Ei',
+              'Fusilli con Salmone\n(Rauchlachs, Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce',
+            nachtessen: 'Rotes Gemüsecurry\nmit Quornstreifen auf Reisnudeln',
             _rowVariant: dayOfWeek === 3 ? 'success' : 'default'
           },
           {
             tag: 'Donnerstag',
             tagesteller:
-              'Paniertes Schweinsschnitzel\nErbsen und Karotten, Kartoffelgratin\nDessert',
+              'Pouletschenkelstreifen\nmit Peperoni und Oliven an Tomatenrahmsauce, Broccoliröschen und Pilav Reis\nDessert',
             'pasta-hit':
-              'Conchiglie con Mortadella\n(Mortadella, Zwiebeln und Peperoni an Pestorahmsauce)\noder Tomatensauce',
-            nachtessen:
-              'Tortelloni mit Spinat und Ricottafüllung\nan Cinque Pi Sauce',
+              'Fusilli Bolognese\n(Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce',
+            nachtessen: 'Penne Rigate\ncon Polpette al Sugo\noder Tomatensauce',
             _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
           },
           {
             tag: 'Freitag',
             tagesteller:
-              'Ungarisches Gulasch\nmit grünen Bohnen und Pilav-Reis',
+              'Schweins Cordon Bleu\nmit Peperonata und Zöpfli-Teigwaren',
             'pasta-hit':
-              'Conchiglie al Tonno\n(Thunfisch, Sardellen und Oliven an Tomatensauce)\noder Tomatensauce',
+              'Gefüllte Pasta Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
             nachtessen: 'Nachtessen nur auf Vorbestellung\nMenü nach Ansage',
             _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
           }
