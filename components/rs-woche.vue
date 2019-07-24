@@ -1,8 +1,8 @@
 <template>
   <b-card :title="name" class="mb-2">
     <p>
-      RS-Woche: {{ week }} / {{ displayTotal }}
-      <span v-if="week > 18">(Durchdiener)</span>
+      <span v-if="week > 18">DD</span><span v-else>RS</span>-Woche: {{ week }} /
+      {{ displayTotal }} ({{ percent }} %)
     </p>
 
     <b-progress :max="displayTotal">
@@ -41,6 +41,9 @@ export default {
     },
     displayTotal() {
       return this.week <= 18 ? 18 : this.totalWeeks
+    },
+    percent() {
+      return Math.round((this.week / this.displayTotal) * 100)
     }
   }
 }
