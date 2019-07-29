@@ -86,7 +86,7 @@ export default {
   data() {
     return {
       menu: {
-        week: 30,
+        week: 31,
         fields: [
           'tag',
           'tagesteller',
@@ -97,48 +97,49 @@ export default {
           {
             tag: 'Montag',
             tagesteller:
-              'Rindsgeschnetzeltes\nmit getrockneten Tomaten und Champignons\nRübengemüse und Kartoffelstock',
+              'Schweinsragout mit Tomaten\nund Champignons, grüne Bohnen und Weissweinrisotto',
             'pasta-hit':
-              'Fusilli a la Carbonara\n(Rahmsauce mit Speck, Zwiebeln und Petersilie)\noder Tomatensauce',
-            nachtessen: 'Älpler-Maggronen\nmit Apfelmus',
+              'Maccaroni ai Funghi\n(Steinpilze und Zwiebeln an Tomatensauce)',
+            nachtessen: 'Wurstweggen\nmit Salatgarniture',
             _rowVariant: dayOfWeek === 1 ? 'success' : 'default'
           },
           {
             tag: 'Dienstag',
             tagesteller:
-              'Gebratenes Zanderfilet\nauf Lauchrahmgemüse mit Ofentomaten und Trockenreis\nDessert',
+              'Rindshamburger\nmit grüner Pfeffersauce, Gemüsemischung und Süsskartoffel-Fries\nDessert',
             'pasta-hit':
-              'Gefüllte Pasta con Pesto\n(Basilikum, Spinat, Pinenkerne und Sbrinz mit Olivenöl)',
-            nachtessen: 'Schweinsbraten "Tonato"\nmit Country-Cuts',
+              'Maccaroni alla Nonna\n(Rahmsauce mit Speck, Vorderschinken, Tometan und Peperoni)\noder Tomatensauce',
+            nachtessen: 'Tortelloni Verdi\nmit Gorgonzola- oder Tomatensauce',
             _rowVariant: dayOfWeek === 2 ? 'success' : 'default'
           },
           {
             tag: 'Mittwoch',
             tagesteller:
-              'Braunes Kalbsvoressen\nmit Karottenstengel und Bramata-Polenta',
+              'Egli-Knusperli\nmit Remouladensauce, Tomaten-Fenchelgemüse und Salzkartoffeln',
             'pasta-hit':
-              'Fusilli con Salmone\n(Rauchlachs, Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce',
-            nachtessen: 'Rotes Gemüsecurry\nmit Quornstreifen auf Reisnudeln',
+              'Macceroni Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)',
+            nachtessen:
+              'Restaurant ist ab 1330 Uhr geschlossen\nLunchbestellungen bis zum Frühstück',
             _rowVariant: dayOfWeek === 3 ? 'success' : 'default'
-          },
-          {
-            tag: 'Donnerstag',
-            tagesteller:
-              'Pouletschenkelstreifen\nmit Peperoni und Oliven an Tomatenrahmsauce, Broccoliröschen und Pilav Reis\nDessert',
-            'pasta-hit':
-              'Fusilli Bolognese\n(Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce',
-            nachtessen: 'Penne Rigate\ncon Polpette al Sugo\noder Tomatensauce',
-            _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
-          },
-          {
-            tag: 'Freitag',
-            tagesteller:
-              'Schweins Cordon Bleu\nmit Peperonata und Zöpfli-Teigwaren',
-            'pasta-hit':
-              'Gefüllte Pasta Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
-            nachtessen: 'Nachtessen nur auf Vorbestellung\nMenü nach Ansage',
-            _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
           }
+          // {
+          //   tag: 'Donnerstag',
+          //   tagesteller:
+          //     'Pouletschenkelstreifen\nmit Peperoni und Oliven an Tomatenrahmsauce, Broccoliröschen und Pilav Reis\nDessert',
+          //   'pasta-hit':
+          //     'Fusilli Bolognese\n(Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce',
+          //   nachtessen: 'Penne Rigate\ncon Polpette al Sugo\noder Tomatensauce',
+          //   _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
+          // },
+          // {
+          //   tag: 'Freitag',
+          //   tagesteller:
+          //     'Schweins Cordon Bleu\nmit Peperonata und Zöpfli-Teigwaren',
+          //   'pasta-hit':
+          //     'Gefüllte Pasta Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
+          //   nachtessen: 'Nachtessen nur auf Vorbestellung\nMenü nach Ansage',
+          //   _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
+          // }
         ]
       }
     }
