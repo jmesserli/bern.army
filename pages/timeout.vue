@@ -86,7 +86,7 @@ export default {
   data() {
     return {
       menu: {
-        week: 31,
+        week: 32,
         fields: [
           'tag',
           'tagesteller',
@@ -97,49 +97,51 @@ export default {
           {
             tag: 'Montag',
             tagesteller:
-              'Schweinsragout mit Tomaten\nund Champignons, grüne Bohnen und Weissweinrisotto',
+              'Schweinshalsbraten\nmit Senfsauce, Karottenscheiben und Spiralen',
             'pasta-hit':
-              'Maccaroni ai Funghi\n(Steinpilze und Zwiebeln an Tomatensauce)',
-            nachtessen: 'Wurstweggen\nmit Salatgarniture',
+              'Cellentani al Carbonara\n(Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce',
+            nachtessen:
+              'Gemüsefrühlingsrolle\nmit süss-saurer Sauce, Risi e Bisi',
             _rowVariant: dayOfWeek === 1 ? 'success' : 'default'
           },
           {
             tag: 'Dienstag',
             tagesteller:
-              'Rindshamburger\nmit grüner Pfeffersauce, Gemüsemischung und Süsskartoffel-Fries\nDessert',
+              'Dorschfilet auf Tomatensauce\nBlattspinat und Würfelkartoffeln\nDessert',
             'pasta-hit':
-              'Maccaroni alla Nonna\n(Rahmsauce mit Speck, Vorderschinken, Tometan und Peperoni)\noder Tomatensauce',
-            nachtessen: 'Tortelloni Verdi\nmit Gorgonzola- oder Tomatensauce',
+              'Gefüllte Pasta con Pesto\n(Basilikum, Pinienkerne, Sbrinz und Olivenöl)',
+            nachtessen:
+              'Penne al Cosimo\n(mit Speck und Artischocken an Tomatensauce)\noder Tomatensauce',
             _rowVariant: dayOfWeek === 2 ? 'success' : 'default'
           },
           {
             tag: 'Mittwoch',
             tagesteller:
-              'Egli-Knusperli\nmit Remouladensauce, Tomaten-Fenchelgemüse und Salzkartoffeln',
+              'Kalbsbratwurst\nmit Zwiebelsauce, Ratatouille und Rösti',
             'pasta-hit':
-              'Macceroni Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)',
-            nachtessen:
-              'Restaurant ist ab 1330 Uhr geschlossen\nLunchbestellungen bis zum Frühstück',
+              'Cellentani con Salmone\n(Weissweinsauce mit Rauchlachs, Zwiebeln, Lauch und Dill)\noder Tomatensauce',
+            nachtessen: 'Kichererbsen-Stroganoff\nund Pilav Reis',
             _rowVariant: dayOfWeek === 3 ? 'success' : 'default'
+          },
+          {
+            tag: 'Donnerstag',
+            tagesteller:
+              'Poulet Ragout "Havanna-Style"\nan Kokos-Korriandersauce, Kräutertomate und Spinatnudeln\nDessert',
+            'pasta-hit':
+              'Cellentani Bolognese\n(Rindshackfleisch und Gemüse)\noder Tomatensauce',
+            nachtessen:
+              'Cheeseburger\nmit Coleslaw-Salat und Kartoffelschnitzen',
+            _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
+          },
+          {
+            tag: 'Freitag',
+            tagesteller:
+              'Kalbsrahmgeschnetzeltes\nmit Champignons, Zucchettischeiben und wilder Reis',
+            'pasta-hit':
+              'Gefüllte Pasta Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
+            nachtessen: 'Abends geschlossen\nLunchbestellung bis zum Frühstück',
+            _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
           }
-          // {
-          //   tag: 'Donnerstag',
-          //   tagesteller:
-          //     'Pouletschenkelstreifen\nmit Peperoni und Oliven an Tomatenrahmsauce, Broccoliröschen und Pilav Reis\nDessert',
-          //   'pasta-hit':
-          //     'Fusilli Bolognese\n(Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce',
-          //   nachtessen: 'Penne Rigate\ncon Polpette al Sugo\noder Tomatensauce',
-          //   _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
-          // },
-          // {
-          //   tag: 'Freitag',
-          //   tagesteller:
-          //     'Schweins Cordon Bleu\nmit Peperonata und Zöpfli-Teigwaren',
-          //   'pasta-hit':
-          //     'Gefüllte Pasta Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
-          //   nachtessen: 'Nachtessen nur auf Vorbestellung\nMenü nach Ansage',
-          //   _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
-          // }
         ]
       }
     }
