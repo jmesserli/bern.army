@@ -1,20 +1,11 @@
 <template>
   <div class="container">
     <h1 class="mt-3">
-      Restaurant <i>Treffpunkt</i>
+      Restaurant Time out
       <small class="text-muted">
         Menüplan KW <span>{{ menu.week }}</span>
       </small>
     </h1>
-
-    <b-alert show dismissible variant="warning">
-      Das Restaurant Time out ist vom Montag, 22. Juli bis am Freitag, 9. August
-      geschlossen. Während dieser Zeit können sämtliche Mahlzeiten im
-      <a href="https://goo.gl/maps/8mZWiJUm8wsVBGZbA" class="alert-link">
-        Restaurant Treffpunkt</a
-      >
-      neben der Mehrzweckhalle eingenommen werden.
-    </b-alert>
 
     <div v-if="outdated">
       <p>Der Menüplan der aktuellen Woche wurde noch nicht abgetippt.</p>
@@ -86,7 +77,7 @@ export default {
   data() {
     return {
       menu: {
-        week: 32,
+        week: 33,
         fields: [
           'tag',
           'tagesteller',
@@ -97,48 +88,47 @@ export default {
           {
             tag: 'Montag',
             tagesteller:
-              'Schweinshalsbraten\nmit Senfsauce, Karottenscheiben und Spiralen',
+              'Schweins-Gyros\nan Sauerrahmsauce mit grünen Bohnen und neuen Kartoffeln',
             'pasta-hit':
-              'Cellentani al Carbonara\n(Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce',
+              'Penne ai Funghi\n(mit Steinpilzen und Zwiebeln an Tomatensauce)',
             nachtessen:
-              'Gemüsefrühlingsrolle\nmit süss-saurer Sauce, Risi e Bisi',
+              'Bärner Hörnli-Auflauf\nmit Cervelat, Vorderschinken und Rüebli',
             _rowVariant: dayOfWeek === 1 ? 'success' : 'default'
           },
           {
             tag: 'Dienstag',
             tagesteller:
-              'Dorschfilet auf Tomatensauce\nBlattspinat und Würfelkartoffeln\nDessert',
+              'Paniertes Seelachsfilet\nmit Tartaresauce, Broccoliröschen und Trockenreis\nDessert',
             'pasta-hit':
-              'Gefüllte Pasta con Pesto\n(Basilikum, Pinienkerne, Sbrinz und Olivenöl)',
-            nachtessen:
-              'Penne al Cosimo\n(mit Speck und Artischocken an Tomatensauce)\noder Tomatensauce',
+              'Penne alla Nonna\n(mit Speck, Schinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce',
+            nachtessen: 'Gemüse-Rösti\nmit Raclettekäse überbacken',
             _rowVariant: dayOfWeek === 2 ? 'success' : 'default'
           },
           {
             tag: 'Mittwoch',
             tagesteller:
-              'Kalbsbratwurst\nmit Zwiebelsauce, Ratatouille und Rösti',
+              'Rindfleischvogel\nmit zweifarbigen Rüebli und Kräuterkartoffelstock',
             'pasta-hit':
-              'Cellentani con Salmone\n(Weissweinsauce mit Rauchlachs, Zwiebeln, Lauch und Dill)\noder Tomatensauce',
-            nachtessen: 'Kichererbsen-Stroganoff\nund Pilav Reis',
+              'Penne Alfredo\n(Rahmsauce mit Zwiebeln, Sbrinz und Petersilie)',
+            nachtessen: "Tortelloni\nall'arrabiata",
             _rowVariant: dayOfWeek === 3 ? 'success' : 'default'
           },
           {
             tag: 'Donnerstag',
             tagesteller:
-              'Poulet Ragout "Havanna-Style"\nan Kokos-Korriandersauce, Kräutertomate und Spinatnudeln\nDessert',
+              'Poulet Cordon-Bleu\nPeperonatagemüse und Weissweinrisotto',
             'pasta-hit':
-              'Cellentani Bolognese\n(Rindshackfleisch und Gemüse)\noder Tomatensauce',
+              'Penne con Mortadella\n(mit Mortadella, Zwiebeln und Pereroni an Pestorahmsauce)\noder Tomatensauce',
             nachtessen:
-              'Cheeseburger\nmit Coleslaw-Salat und Kartoffelschnitzen',
+              'St. Galler-Schüblig\nKartoffelsalatmit Eiern und Essiggurken',
             _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
           },
           {
             tag: 'Freitag',
             tagesteller:
-              'Kalbsrahmgeschnetzeltes\nmit Champignons, Zucchettischeiben und wilder Reis',
+              'Hackbraten\nmit Rotweinsauce, Blumenkohl und Tomatennudeln\nDessert',
             'pasta-hit':
-              'Gefüllte Pasta Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
+              'Penne al Tonno\n(mit Thunfisch, Sardellen und Oliven an Tomatensauce)',
             nachtessen: 'Abends geschlossen\nLunchbestellung bis zum Frühstück',
             _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
           }
