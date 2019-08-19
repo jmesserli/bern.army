@@ -77,7 +77,7 @@ export default {
   data() {
     return {
       menu: {
-        week: 33,
+        week: 34,
         fields: [
           'tag',
           'tagesteller',
@@ -88,47 +88,48 @@ export default {
           {
             tag: 'Montag',
             tagesteller:
-              'Schweins-Gyros\nan Sauerrahmsauce mit grünen Bohnen und neuen Kartoffeln',
+              'Schweinsragout\nan Senfbiersauce, Gemüsemischung und Kartoffelstock',
             'pasta-hit':
-              'Penne ai Funghi\n(mit Steinpilzen und Zwiebeln an Tomatensauce)',
+              'Conchiglie al Carbonara\n(mit Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce',
             nachtessen:
-              'Bärner Hörnli-Auflauf\nmit Cervelat, Vorderschinken und Rüebli',
+              'Gemüse-Lasagne\nmit Auberginen, Zucchetti, Peperoni und Mozzarella',
             _rowVariant: dayOfWeek === 1 ? 'success' : 'default'
           },
           {
             tag: 'Dienstag',
             tagesteller:
-              'Paniertes Seelachsfilet\nmit Tartaresauce, Broccoliröschen und Trockenreis\nDessert',
+              'Dorschfilet\nmit Tomatenkruste an Morgenrotsauce, Blattspinat und Trockenreis\nDessert',
             'pasta-hit':
-              'Penne alla Nonna\n(mit Speck, Schinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce',
-            nachtessen: 'Gemüse-Rösti\nmit Raclettekäse überbacken',
+              'Conchiglie con Pesto\n(Basilikum, Pinienkerne, Sbrinz und Olivenöl)',
+            nachtessen:
+              'Schweinsbratwurst\nmit Kräutersenf und Kartoffel-Gemüsepfanne',
             _rowVariant: dayOfWeek === 2 ? 'success' : 'default'
           },
           {
             tag: 'Mittwoch',
             tagesteller:
-              'Rindfleischvogel\nmit zweifarbigen Rüebli und Kräuterkartoffelstock',
+              'Pouletgeschnetzeltes\nmit Ananas an Kokoscurrysauce, Cous Cous und Erbsen',
             'pasta-hit':
-              'Penne Alfredo\n(Rahmsauce mit Zwiebeln, Sbrinz und Petersilie)',
-            nachtessen: "Tortelloni\nall'arrabiata",
+              'Conchiglie con Salmone\n(Rauchlachs, Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce',
+            nachtessen:
+              "Spaghetti all'amatriciana\n(mit Zwiebeln, Knoblauch, Speck und Pfefferschoten an Tomatensauce)",
             _rowVariant: dayOfWeek === 3 ? 'success' : 'default'
           },
           {
             tag: 'Donnerstag',
             tagesteller:
-              'Poulet Cordon-Bleu\nPeperonatagemüse und Weissweinrisotto',
+              'Paniertes Schweinsschnitzel\nBlumenkohlgratin und Spinatnudeln\nDessert',
             'pasta-hit':
-              'Penne con Mortadella\n(mit Mortadella, Zwiebeln und Pereroni an Pestorahmsauce)\noder Tomatensauce',
-            nachtessen:
-              'St. Galler-Schüblig\nKartoffelsalatmit Eiern und Essiggurken',
+              'Conchiglie alla Bella Vita\n(Pouletbruststreifen mit Zwiebeln und Knoblauch an Tomatenrahmsauce)\noder Tomatensauce',
+            nachtessen: 'Churer-Fleischtorte\nund Mischsalat',
             _rowVariant: dayOfWeek === 4 ? 'success' : 'default'
           },
           {
             tag: 'Freitag',
             tagesteller:
-              'Hackbraten\nmit Rotweinsauce, Blumenkohl und Tomatennudeln\nDessert',
+              'Wiener Kalbsrahmgoulasch\nKarottenscheiben und Polenta',
             'pasta-hit':
-              'Penne al Tonno\n(mit Thunfisch, Sardellen und Oliven an Tomatensauce)',
+              'Conchiglie Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)',
             nachtessen: 'Abends geschlossen\nLunchbestellung bis zum Frühstück',
             _rowVariant: dayOfWeek === 5 ? 'success' : 'default'
           }
