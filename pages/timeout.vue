@@ -71,6 +71,8 @@
 
 <script>
 import moment from 'moment'
+import menu from '~/assets/menu.json'
+
 const dayOfWeek = moment().day()
 
 export default {
@@ -81,24 +83,10 @@ export default {
         'tagesteller',
         { key: 'pasta-hit', label: 'Pasta-Hit' },
         'nachtessen'
-      ]
-    }
-  },
-  computed: {
-    outdated() {
-      const isoWeek = moment().week()
-      return isoWeek !== this.menu.week
-    }
-  },
-  async asyncData({ $axios }) {
-    const { data } = await $axios.get(
-      'https://cdn.peg.nu/files/.bernarmy/menu.json'
-    )
-
-    return {
+      ],
       menu: {
-        week: data.week,
-        days: data.days
+        week: menu.week,
+        days: menu.days
           .filter(function noString(x) {
             return typeof x !== 'string'
           })
@@ -122,6 +110,12 @@ export default {
             })()
           )
       }
+    }
+  },
+  computed: {
+    outdated() {
+      const isoWeek = moment().week()
+      return isoWeek !== this.menu.week
     }
   }
 }
