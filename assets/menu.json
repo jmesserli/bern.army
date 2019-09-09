@@ -1,34 +1,34 @@
 {
-  "week": 36,
+  "week": 37,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Rindshamburger\nmit Tomaten und Käse, glasierten Erbsen und Spiralen",
-      "pasta-hit": "Macceroni al Carbonara\n(Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Nasi Goreng\nAsiatisches Reisgericht mti Poulet und Gemüse"
+      "tagesteller": "Kalbshacksteak\nan rustikaler Senfsauce mit Peperonata und Macceroni",
+      "pasta-hit": "Cellentani ai Funghi\n(Steinpilze, Zwiebeln und Tomatensauce)\noder Tomatensauce",
+      "nachtessen": "Heisser Beinschinken\nund Kartoffelsalat"
     },
     "// Dienstag",
     {
-      "tagesteller": "Lachstranche\nmit Safransauce, tomatierter Fenchel und Petersilienkartoffeln\nDessert",
-      "pasta-hit": "Macceroni mit Pesto-Rosso\n(Getrocknete Tomaten, Lauch und Mandeln)",
-      "nachtessen": "Glarner Hörnli\nmit Apfelmus"
+      "tagesteller": "Dorschfilet\nin Knusperpanade und Kräuterquark, Rahmspinat und Salzkartoffeln\nDessert",
+      "pasta-hit": "Cellentani alla Nonna\n(Speck, Vorderschinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce",
+      "nachtessen": "Spaghetti all'amatriciana\n(Tomatensauce mit Speck, Zwiebeln, Knoblauch und Peperoncini\noder Tomatensauce"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Geflügelragout\nan Calvadossauce, Zuchetti und Trockenreis",
-      "pasta-hit": "Macceroni Gallinaccio\n(Vorderschinken, Zucchetti, Auberginen und Eierschwämme an Tomatenrahmsauce)\noder Tomatensauce",
-      "nachtessen": "Rösti-Pizza\n(Rösti mit Artischocken, Champignons, Tomaten und Mozzarella)"
+      "tagesteller": "Schweinsrahmschnitzel\nmit Karottenscheiben und Zöpfli-Teigwaren",
+      "pasta-hit": "Cellentani Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)",
+      "nachtessen": "Cheese-Burger\nmit Wedge-Kartoffeln und Coleslaw Salat"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Kalbshackbraten\nmit Frischkäsesauce, Rüebliwürfel und Bäckerinnenkartoffeln\nDessert",
-      "pasta-hit": "Macceroni Cinque P\n(Tomatenwürfel, Pfeffer-Schrot, Petersilie, Rahm und Sbrinz)",
-      "nachtessen": "Tortellini-Casalinga\n(mit Vorderschinken, Erbsen und Peperoni an Rahmsauce)\noder Tomatensauce"
+      "tagesteller": "Pouletbrust\nan Orangensauce, Broccoliröschen und farbigem Reis\nDessert",
+      "pasta-hit": "Cellentani con Mortadella\n(Mortadella, Zwiebeln, Peperonistreifen an Pestorahmsauce)\noder Tomatensauce",
+      "nachtessen": "Müscheli-Gratin\nmit Lauch, Cherry Tomaten und Freiburger-Vacherin"
     },
     "// Freitag",
     {
-      "tagesteller": "Schweins-Geschnetzeltes\nnach Berner Art mit Rotkabis und Nudeln",
-      "pasta-hit": "Macceroni con Salmone\n(Rauchlachs mit Zwiebeln, Lauchstreifen und Dill an Weissweinsauce)\noder Tomatensauce",
+      "tagesteller": "Rindfleischvogel\nan Balsamicosauce, Kohlrabiwürfel und Bramata-Polenta",
+      "pasta-hit": "Cellentani al Tonno\n(Thunfisch, Sardellen und Oliven an Tomatensauce)\noder Tomatensauce",
       "nachtessen": "Abends geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
