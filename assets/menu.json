@@ -1,34 +1,34 @@
 {
-  "week": 37,
+  "week": 38,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Kalbshacksteak\nan rustikaler Senfsauce mit Peperonata und Macceroni",
-      "pasta-hit": "Cellentani ai Funghi\n(Steinpilze, Zwiebeln und Tomatensauce)\noder Tomatensauce",
-      "nachtessen": "Heisser Beinschinken\nund Kartoffelsalat"
+      "tagesteller": "Rindsgeschnetzeltes\nnach \"Stroganoff\", Wurzelgemüse und Kartoffelstock",
+      "pasta-hit": "Penne a la Carbonara\n(Rahmsauce mit Speck, Zwiebeln und Petersilie)\noder Tomatensauce",
+      "nachtessen": "Conchiglie Bündner Art\n(Tomatensauce mit Trockenfleisch und Baumnüssen)"
     },
     "// Dienstag",
     {
-      "tagesteller": "Dorschfilet\nin Knusperpanade und Kräuterquark, Rahmspinat und Salzkartoffeln\nDessert",
-      "pasta-hit": "Cellentani alla Nonna\n(Speck, Vorderschinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Spaghetti all'amatriciana\n(Tomatensauce mit Speck, Zwiebeln, Knoblauch und Peperoncini\noder Tomatensauce"
+      "tagesteller": "Schweinssaltimbocca\nmit Madeirasauce, Ratatouille und Spätzli-Teigwaren\nDessert",
+      "pasta-hit": "Penne con Pesto\n(Basilikum, Spinat, Pinienkerne, Sbrinz und Olivenöl)",
+      "nachtessen": "Kalbsgemüsehacksteak\nauf Pilzragout mit Raclettekartoffeln"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Schweinsrahmschnitzel\nmit Karottenscheiben und Zöpfli-Teigwaren",
-      "pasta-hit": "Cellentani Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)",
-      "nachtessen": "Cheese-Burger\nmit Wedge-Kartoffeln und Coleslaw Salat"
+      "tagesteller": "Poulet Cordon-Bleu\nmit Blumenkohl und Tomaten-Risotto",
+      "pasta-hit": "Penne con Salmone\n(Rauchlachs, Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce",
+      "nachtessen": "Canneloni alla Nonna\nmit Tomatensauce"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Pouletbrust\nan Orangensauce, Broccoliröschen und farbigem Reis\nDessert",
-      "pasta-hit": "Cellentani con Mortadella\n(Mortadella, Zwiebeln, Peperonistreifen an Pestorahmsauce)\noder Tomatensauce",
-      "nachtessen": "Müscheli-Gratin\nmit Lauch, Cherry Tomaten und Freiburger-Vacherin"
+      "tagesteller": "Schweinsbraten\nmit Lauchgratin und Süsskartoffelgnocchi",
+      "pasta-hit": "Penne Bolognese\n(Rindshackfleisch mit Gemüse und brauner Sauce)",
+      "nachtessen": "Bratwurst\nan Zwiebelsauce mit Rösti"
     },
     "// Freitag",
     {
-      "tagesteller": "Rindfleischvogel\nan Balsamicosauce, Kohlrabiwürfel und Bramata-Polenta",
-      "pasta-hit": "Cellentani al Tonno\n(Thunfisch, Sardellen und Oliven an Tomatensauce)\noder Tomatensauce",
+      "tagesteller": "Kap-Seehecht\nmit Morgenrotsauce, Zucchettiwürfel und Gemüsereis\nDessert",
+      "pasta-hit": "Penne Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)",
       "nachtessen": "Abends geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
