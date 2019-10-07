@@ -1,34 +1,34 @@
 {
-  "week": 40,
+  "week": 41,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Rindsgeschnetzeltes\nNach \"Stroganoff\", Rübengemüse und Kartoffelstock",
-      "pasta-hit": "Fusilli a la Carbonara\n(Rahmsauce mit Speck, Zwiebeln und Petersilie)\noder Tomatensauce",
-      "nachtessen": "Aelpler-Maggronen\nmit Apfelmus"
+      "tagesteller": "Schweinsragout\nmit Tomaten und Champignons, grüne Bohnen und Weissweinrisotto",
+      "pasta-hit": "Maccaroni ai Funghi\n(Steinpilze und Zwiebeln an Tomatensauce)",
+      "nachtessen": "Aelplerhörnli\nmit Vorderschinken, Birnen und Greyerzer im Ofen überbacken"
     },
     "// Dienstag",
     {
-      "tagesteller": "Gebratenes Zanderfilet\nmit Pastisrahmsauce, Ofentomaten und Trockenreis\nDessert",
-      "pasta-hit": "Fusilli con Pesto\n(Basilikum, Spinat, Pinienkerne und Sbrinz mit Olivenöl)",
-      "nachtessen": "Waadtländer Saucisson\nmit Kartoffel-Lauchgemüse"
+      "tagesteller": "Gebackenes Alaskaseelachsfilet\nmit Zitronenquarksauce, Tomaten-Fenchelgemüse und Salzkartoffeln\nDessert",
+      "pasta-hit": "Maccaroni alla Nonna\n(Rahmsauce mit Speck, Vorderschinken, Tomaten und Peperoni)\noder Tomatensauce",
+      "nachtessen": "Warmer Beinschinken\nmit Senf und Kartoffelsalat"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Braunes Kalbsvoressen\nmit Karottenstengel und Bramata-Polenta",
-      "pasta-hit": "Fusilli con Salmone\n(Rauchlachs, Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce",
-      "nachtessen": "Rotes Gemüsecurry\nmit Quornstreifen auf Nestnudeln"
+      "tagesteller": "Rindsgeschnetzeltes\nan Sauerrahmsauce, Rotkabis mit Äpfeln und hausgemachten Spätzli",
+      "pasta-hit": "Maccaroni Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)",
+      "nachtessen": "Gemüsecurry\nmit Kichererbsen und Süsskartoffelburger"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Pouletschenkelstreifen\nmit Peperoni und Oliven an Tomatenrahmsauce, Broccoliröschen und Pilav Reis\nDessert",
-      "pasta-hit": "Fusilli Bolognese\n(Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce",
-      "nachtessen": "Penne Rigate\ncon Polpette al Sugo\noder Tomatensauce"
+      "tagesteller": "Schweins-Piccata\nmit Tomatensauce, Zucchettiwürfel und Spaghetti\nDessert",
+      "pasta-hit": "Maccaroni alla Carrettiera\n(Auberginen, Zucchetti, Champignons, Cherrytomaten und Tomatensauce)",
+      "nachtessen": "Conchiglie Napoli\n(Gorgonzolasauce mit Landrauchschinken, Birnen und Baumnüssen)\noder Tomatensauce"
     },
     "// Freitag",
     {
-      "tagesteller": "Schweins Cordon Bleu\nmit Peperonata und Zöpfli-Teigwaren",
-      "pasta-hit": "Fusilli Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)",
+      "tagesteller": "Rindshamburger\nmit grüner Pfeffersauce, Gemüsemischung und Kartoffelschnitze",
+      "pasta-hit": "Maccaroni al Tonno\n(Thunfisch, Sardellen, schwarze Oliven und Tomatensauce)",
       "nachtessen": "Abends geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
