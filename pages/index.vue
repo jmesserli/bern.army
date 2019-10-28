@@ -59,7 +59,7 @@
                     Abends
                   </th>
                   <td class="text-right">
-                    17:00 - 18:00 Uhr
+                    17:00 - 19:00 Uhr
                   </td>
                 </tr>
               </tbody>
