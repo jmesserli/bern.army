@@ -1,35 +1,35 @@
 {
-  "week": 43,
+  "week": 44,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Schweins-Gyros\nan Sauerrahmsauce mit grünen Bohnen und neuen Kartoffeln",
-      "pasta-hit": "Penne ai Funghi\n(Steinpilze und Zwiebeln an Tomatensauce)",
-      "nachtessen": "Bärner Hörnli-Auflauf\nmit Cervelat, Vorderschinken, Kartoffeln und Rüebli"
+      "tagesteller": "Schweinsragout\nan Senfbiersauce, Gemüsemischung und Kartoffelstock",
+      "pasta-hit": "Conchiglie al Carbonara\n(Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce",
+      "nachtessen": "Hausgemache Lasagne\nmit Rindshackfleisch"
     },
     "// Dienstag",
     {
-      "tagesteller": "Paniertes Seelachsfilet\nmit Tartaresauce, Broccoliröschen und Trockenreis\nDessert",
-      "pasta-hit": "Penne alla Nonna\n(Speck, Schinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Walliser-Rösti\nmit Tomaten und Raclettekäse"
+      "tagesteller": "Überbackenes Dorschfilet\nan Morgenrotsauce, Blattspinat und Trockenreis\nDessert",
+      "pasta-hit": "Conchiglie con Pesto\n(Basilikum, Pinienkerne, Sbrinz und Olivenöl",
+      "nachtessen": "Gebackener Käse\nauf Tomatencoulis mit Kartoffel-Gemüsesalat"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Rindfleischvogel\nmit zweifarbigen Rüebli und Kräuterkartoffelstock",
-      "pasta-hit": "Penne Alfredo\n(Rahmsauce mit Zwiebeln, Sbrinz und Petersilie)",
-      "nachtessen": "St. Galler-Schüblig\nKartoffelsalat mit gekockten Eiern und Essiggurken"
+      "tagesteller": "Pouletgeschnetzeltes\nmit Ananas an Kokoscurrysauce, Gartenerbsen und Cous Cous",
+      "pasta-hit": "Conchiglie con Salmone\n(Rauchlachs, Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce",
+      "nachtessen": "Churer-Fleischtorte\nund Mischsalat"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Poulet Cordon-Bleu\nTomatenzucchetti und Pilav Reis",
-      "pasta-hit": "Penne con Mortadella\n(Mortadella, Zwiebeln und Peperoni an Pestorahmsauce)\noder Tomatensauce",
-      "nachtessen": "Spaghetti\nmit Zwiebeln, Knoblauch, Speck und Peperoni und Tomatensauce"
+      "tagesteller": "Paniertes Schweinsschnitzel\nBlumenkohlgratin und Spinatnudeln",
+      "pasta-hit": "Conchiglie alla Bella Vita\n(Pouletbruststreifen mit Zwiebeln und Knoblauch an Tomatensauce)\noder Tomatensauce",
+      "nachtessen": "Canneloni alla Zucca\nmit Frischkäsesauce"
     },
     "// Freitag",
     {
-      "tagesteller": "Hackbraten\nmit Rotweinsauce, Blumenkohl und Tomatennudeln\nDessert",
-      "pasta-hit": "Penne al Tonno\n(Thunfisch, Sardellen und Oliven an Tomatensauce)",
-      "nachtessen": "Paella Valenciana\n(Spanisches Reisgericht mit Gemüse und Pouletoberschenkel)"
+      "tagesteller": "Wiener Kalbsgulasch\nKarottenscheiben und Polenta\nDessert",
+      "pasta-hit": "Conchiglie Cinque P\n(Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)",
+      "nachtessen": "Bratwurst\nmit Kräutersenf und Kartoffel-Gemüsepfanne"
     }
   ]
 }
