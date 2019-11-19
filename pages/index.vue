@@ -43,7 +43,9 @@
                     Montag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr\n12:30 - 14:00 Uhr\n17:00 - 18:30 Uhr
+                    07:00 - 10:00 Uhr
+                    12:30 - 14:00 Uhr
+                    17:00 - 18:30 Uhr
                   </td>
                 </tr>
                 <tr>
@@ -51,7 +53,9 @@
                     Dienstag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr\n12:30 - 13:30 Uhr\n16:00 - 17:30 Uhr
+                    07:00 - 10:00 Uhr
+                    12:30 - 13:30 Uhr
+                    16:00 - 17:30 Uhr
                   </td>
                 </tr>
                 <tr>
@@ -59,7 +63,9 @@
                     Mittwoch
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr\n12:30 - 13:00 Uhr\n16:15 - 18:30 Uhr
+                    07:00 - 10:00 Uhr
+                    12:30 - 13:00 Uhr
+                    16:15 - 18:30 Uhr
                   </td>
                 </tr>
                 <tr>
@@ -67,7 +73,9 @@
                     Donnerstag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr\n12:30 - 13:30 Uhr\n16:00 - 18:30 Uhr
+                    07:00 - 10:00 Uhr
+                    12:30 - 13:30 Uhr
+                    16:00 - 18:30 Uhr
                   </td>
                 </tr>
                 <tr>
@@ -75,7 +83,8 @@
                     Freitag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr\n12:30 - 17:00 Uhr
+                    07:00 - 10:00 Uhr
+                    12:30 - 17:00 Uhr
                   </td>
                 </tr>
               </tbody>
