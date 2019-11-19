@@ -1,3 +1,4 @@
+
 <template>
   <div class="container">
     <div class="row">
@@ -44,7 +45,21 @@
                   </th>
                   <td class="text-right">
                     07:00 - 10:00 Uhr
+                  </td>
+                </tr>
+		<tr>
+                  <th scope="row">
+                     
+                  </th>
+                  <td class="text-right">
                     12:30 - 14:00 Uhr
+                  </td>
+                </tr>
+		<tr>
+                  <th scope="row">
+                     
+                  </th>
+                  <td class="text-right">
                     17:00 - 18:30 Uhr
                   </td>
                 </tr>
