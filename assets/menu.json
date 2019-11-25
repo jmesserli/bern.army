@@ -1,34 +1,34 @@
 {
-  "week": 47,
+  "week": 48,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Kalbshacksteak\nan rustikaler Senfsauce mit Peperonata und Maccheroni",
-      "pasta-hit": "Cellentani ai Funghi\n(Steinpilze, Zwiebeln und Tomatensauce)",
-      "nachtessen": "Heisser Beinschinken und Kartoffelsalat"
+      "tagesteller": "Schweinsbraten mit Lauchgratin und Würfelkartoffeln",
+      "pasta-hit": "Penne alla carbonara (Rahmsauce mit Speck, Zwiebeln und Petersilie)\noder Tomatensauce",
+      "nachtessen": "Käse- und Zwiebelkuchen mit Kabissalat"
     },
     "// Dienstag",
     {
-      "tagesteller": "Dorschfilet (POL)\nin Knusperpanade und Kräuterquark, Rahmspinat und Salzkartoffeln\nDessert",
-      "pasta-hit": "Cellentani alla Nonna (Speck, Vorderschinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Spaghetti all' Amatriciana (Tomatensauce mit Speck, Zwiebeln, Knoblauch und Peperoncini)\noder Tomatensauce"
+      "tagesteller": "Kap-Seehecht (soa) mit Morgenrotsauce, Zuchettiwürfel und Gemüsereis\nDessert",
+      "pasta-hit": "Penne con pesto (Basilikum, Spinat, Pinienkerne, Sbrinz und Olivenöl)",
+      "nachtessen": "Kalbsbratwurst an Zwiebelsauce und Kartoffel-Gemüsegratin"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Schweinsrahmschnitzel mit Karottenscheiben und Zöpfli-Teigwaren",
-      "pasta-hit": "Cellentani Alfredo\n(Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)",
+      "tagesteller": "Rindsgeschnetzeltes nach \"Stroganoff\", Rosenkohl und Kartoffelstock",
+      "pasta-hit": "Penne con salmone (Rauchlachs (nor), Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce",
       "nachtessen": "Schweinsbratwurst mit Kartoffelgemüsepfanne"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Pouletbrust\nan Orangensauce, Broccoliröschen und farbiger Reis\nDessert",
-      "pasta-hit": "Cellentani con Mortadella (Mortadella, Zwiebeln, Peperonistreifen an Pestorahmsauce)\noder Tomatensauce",
-      "nachtessen": "Müscheli-Gratin\nmit Lauch, Cherry-Tomaten und Freiburger Vacherin"
+      "tagesteller": "Poulet-Cordon-Bleu mit Blumenkohl und Tomaten-Risotto",
+      "pasta-hit": "Penne bolognese (Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce",
+      "nachtessen": "Tomatenstrudel mit verschiedenen Salaten garniert"
     },
     "// Freitag",
     {
-      "tagesteller": "Rindfleischvogel\nan Balsamicosauce, Kohlrabiwürfel und Bramata-Polenta",
-      "pasta-hit": "Cellentani al Tonno\n(Thunfisch, Sardellen und Oliven an Tomatensauce)\noder Tomatensauce",
+      "tagesteller": "Schweinssaltimbocca mit Madeirasauce, Ratatouille und Spätzli-Teigwaren",
+      "pasta-hit": "Penne Cinque P (Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)",
       "nachtessen": "Geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
