@@ -1,34 +1,34 @@
 {
-  "week": 48,
+  "week": 49,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Schweinsbraten mit Lauchgratin und Würfelkartoffeln",
-      "pasta-hit": "Penne alla carbonara (Rahmsauce mit Speck, Zwiebeln und Petersilie)\noder Tomatensauce",
-      "nachtessen": "Käse- und Zwiebelkuchen mit Kabissalat"
+      "tagesteller": "Schweinsragout mit Tomaten, Broccoli und Kartoffel-Gnocchi",
+      "pasta-hit": "Conchiglie ai funghi (Steinpilze und Zwiebeln an Tomatensauce",
+      "nachtessen": "Hausgemachte Lasagne mit Rindshackfleisch"
     },
     "// Dienstag",
     {
-      "tagesteller": "Kap-Seehecht (soa) mit Morgenrotsauce, Zuchettiwürfel und Gemüsereis\nDessert",
-      "pasta-hit": "Penne con pesto (Basilikum, Spinat, Pinienkerne, Sbrinz und Olivenöl)",
-      "nachtessen": "Kalbsbratwurst an Zwiebelsauce und Kartoffel-Gemüsegratin"
+      "tagesteller": "Seelachs (pol) in Knusperpanade mit Kräuterquarksauce, Blattspinat und Salzkartoffeln\nDessert",
+      "pasta-hit": "Conchiglie alla nonna (Rahmsauce mit Speck-, Schinken-, Tomaten- und Peperoniwürfel\noder Tomatensauce",
+      "nachtessen": "Spätzlipfanne mit Gemüsewürfeln und Champignons an Sauerrahmsauce"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Rindsgeschnetzeltes nach \"Stroganoff\", Rosenkohl und Kartoffelstock",
-      "pasta-hit": "Penne con salmone (Rauchlachs (nor), Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce",
-      "nachtessen": "Cannelloni a la Zucca mit Kürbisfrischkäsesauce\nMischsalat"
+      "tagesteller": "Pouletoberschenkel auf Peperonicoulis, Zucchetti und Nudeln",
+      "pasta-hit": "Conchiglie Alfredo (Rahmsauce mit Zwiebeln, Petersilie und Sbrinz",
+      "nachtessen": "Cheese Burger mit Country-Cuts und Coleslaw-Salat"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Poulet-Cordon-Bleu mit Blumenkohl und Tomaten-Risotto",
-      "pasta-hit": "Penne bolognese (Rindshackfleisch mit Gemüse und brauner Sauce)\noder Tomatensauce",
-      "nachtessen": "Tomatenstrudel mit verschiedenen Salaten garniert"
+      "tagesteller": "Scheinssteak im Käsemantel, Erbsen und Karotten, Kartoffelgratin\nDessert",
+      "pasta-hit": "Conchiglie con mortadella (Mortadella, Zwiebeln und Peperoni an Pestorahmsauce)\noder Tomatensauce",
+      "nachtessen": "Tortelloni mit Spinat- und Ricottafüllung an Cinque Pi-Sauce"
     },
     "// Freitag",
     {
-      "tagesteller": "Schweinssaltimbocca mit Madeirasauce, Ratatouille und Spätzli-Teigwaren\nDessert",
-      "pasta-hit": "Penne Cinque P (Tomatenrahmsauce mit Pfeffer, Petersilie und Sbrinz)",
+      "tagesteller": "Ungarisches Gulasch mit grünen Bohnen und Pilav-Reis",
+      "pasta-hit": "Conchiglie al tonno (Thunfisch, Sardellen und Oliven an Tomatensauce)\noder Tomatensauce",
       "nachtessen": "Geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
