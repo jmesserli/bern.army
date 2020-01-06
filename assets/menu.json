@@ -1,34 +1,34 @@
 {
-  "week": 51,
+  "week": 2,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Schweinsragout mit Tomaten und Champignons, Tagesgemüse und Weissweinrisotto",
-      "pasta-hit": "Maccaroni ai funghi (Steinpilze und Zwiebeln an Tomatensauce)",
-      "nachtessen": "Beinschinken mit Senf und Kartoffelsalat"
+      "tagesteller": "Schweinshalsbraten mit Senfsauce, Karottenscheiben und Spiralen",
+      "pasta-hit": "Cellentani al carbonara (Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce",
+      "nachtessen": "Gemüsefrühlingsrolle mit süss-saurer Sauce\nRisi e bisi"
     },
     "// Dienstag",
     {
-      "tagesteller": "Gebackenes Alaska-Seelachsfilet (nwp) mit Zitronenquarksauce, Tomaten-Fenchelgemüse und Salzkartoffeln\nDessert",
-      "pasta-hit": "Maccaroni alla nonna (Rahmsauce mit Speck, Vorderschinken, Tomaten und Peperoni)\noder Tomatensauce",
-      "nachtessen": "Wurstweggen mit verschiedenen Salaten garniert"
+      "tagesteller": "Dorschfilet (pol) in Knusperpanade, Blattspinat und Würfelkartoffeln\nDessert",
+      "pasta-hit": "Cellentani con pesto (Basilikum, Pinienkerne, Sbrinz und Olivenöl)",
+      "nachtessen": "Penne al cosimo (mit Speck und Artischocken an Tomatenrahmsauce)\noder Tomatensauce"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Rindsgeschnetzeltes an Sauerrahmsauce, Rotkabis mit Äpfeln und hausgemachten Spätzli",
-      "pasta-hit": "Maccaroni Alfredo (Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)",
-      "nachtessen": "Bärner Hörnli-Gratin mit Cervelat, Vorderschinken, Kartoffeln und Rüebli"
+      "tagesteller": "Kalbsbratwurst mit Zwiebelsauce, Ratatouille und Rösti",
+      "pasta-hit": "Cellentani con salmone (Weissweinsauce mit Rauchlachs (nor), Zwiebeln, Lauch und Dill)\noder Tomatensauce",
+      "nachtessen": "Kichererbsen-Stroganoff und wilder Reis"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Schweins-Piccata mit Tomatensauce, Broccoliröschen und Spaghetti\nDessert",
-      "pasta-hit": "Maccaroni alla carrettiera (Auberginen, Zucchetti, Champignons, Cherrytomaten und Tomatensauce)",
-      "nachtessen": "Schweinsbraten mit Thunfischsauce\nSchalenkartoffeln"
+      "tagesteller": "Kalbsrahmgeschnetzeltes mit Champignons, Zucchettischeiben und Nudeln\nDessert",
+      "pasta-hit": "Cellentani bolognese (Rindshackfleisch und Gemüse)\noder Tomatensauce",
+      "nachtessen": "Cheeseburger mit Coleslaw-Salat und Kartoffelschnitzen"
     },
     "// Freitag",
     {
-      "tagesteller": "Rindshamburger mit grüner Pfeffersauce, Tagesgemüse und Kartoffelschnitzen",
-      "pasta-hit": "Maccaroni al tonno (Thunfisch, Sardellen, schwarze Oliven und Tomatensauce)",
+      "tagesteller": "Poulet Ragout \"Havanna-Style\" an Kokos-Koriandersauce, Kräutertomate und Pilav-Reis",
+      "pasta-hit": "Cellentani Cinque Pi (Tomatenrahmsauce mit Pfeffer, Sbrinz und Petersilie)",
       "nachtessen": "Geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
