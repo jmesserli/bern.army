@@ -1,34 +1,34 @@
 {
-  "week": 5,
+  "week": 6,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Rindsgeschnetzeltes nach \"Stroganoff\", Kräuter-Kohlrabi und Goldzöpfli",
-      "pasta-hit": "Fusilli alla nonna (Speck-, Schinken-, Tomaten- und Peperoniwürfel an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Curry-Bratwurst mit Hagebuttenketchup, Gemüsereis"
+      "tagesteller": "Rindshamburger mit Tomaten und Käse, glasierten Erbsen und Spiralen",
+      "pasta-hit": "Maccheroni al carbonara (mit Speck, Zweiebeln und Petersilie an Rahmsauce)\noder Tomatensauce",
+      "nachtessen": "\"Nasi Goreng\"\nAsiatisches Reisgericht mit Pouletstreifen und Gemüse"
     },
     "// Dienstag",
     {
-      "tagesteller": "Alaska-Seelachs-Filet (nwp) mit Zitronenquarksauce, Kräutertomate und Salzkartoffeln\nDessert",
-      "pasta-hit": "Fusilli ai funghi (Zwiebeln, Steinpilze und Tomatensauce)",
-      "nachtessen": "Älpler-Maccronen mit Apfelmus"
+      "tagesteller": "Lachstranche (nor) mit Safransauce, Fenchelgemüse und Petersilienkartoffeln\nDessert",
+      "pasta-hit": "Maccheroni mit Pesto-Rosso\n(Getrocknete Tomaten, Lauchstreifen und Mandelsplitter)",
+      "nachtessen": "Glarner Hörnli mit Apfelmus und grünem Salat"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Schweinsschnitzel an Senfsauce, Gemüsemischung und Nudeln",
-      "pasta-hit": "Fusilli al arrabiata (Zwiebeln, Knoblauch, Chilischoten und Petersilie an Tomatensauce",
-      "nachtessen": "Tomatenstrudel mit Teigwaren-Gemüsesalat"
+      "tagesteller": "Geflügelragout mit Äpfeln an Calvadossauce, Zucchetti und Trockenreis",
+      "pasta-hit": "Maccheroni con salmone (Rauchlachs (nor) mit Zwiebeln, Lauchstreifen und Dill an Weissweinsauce\noder Tomatensauce)",
+      "nachtessen": "Rösti-Pizza (Vorderschinken, Champignons, Tomaten und Mozzarella)"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Poelierte Pouletbrust auf Tomatensauce, Broccoliröschen und Pilav-Reis\nDessert",
-      "pasta-hit": "Fusilli con mortadella (Mortadella, Zwiebeln, Peperonistreifen an Pestorahmsauce)",
-      "nachtessen": "Heisser Fleischkäse mit Kartoffel-Lauchgemüse"
+      "tagesteller": "Kalbshackbraten mit Frischkäsesauce, Rüebliwürfel und Bäckerinnenkartoffeln\nDessert",
+      "pasta-hit": "Maccheroni Gallinaccio (Vorderschinkenwürfel, Zucchetti, Auberginen und Eierschwämme an Tomatenrahmsauce\noder Tomatenrahmsauce",
+      "nachtessen": "Tortellini-Casalinga (mit Vorderschinken, Erbsen und Peperoni an Rahmsauce)\noder Tomatensauce"
     },
     "// Freitag",
     {
-      "tagesteller": "Ger. Schweinshals mit Honigsauce, Weisskabis und Lyonerkartoffeln",
-      "pasta-hit": "Fusilli al tonno (Thunfisch, Sardellen, schwarze Oliven und Tomatensauce)",
+      "tagesteller": "Berner Schweins-Geschnetzeltes mit Rotkabis und Nudeln",
+      "pasta-hit": "Maccheroni Cinque Pi (Tomatenwürfel, Pfeffer-Schrot, Petersilie, Rahm und Sbrinz)",
       "nachtessen": "Nachtessen für Angemeldete\nMenü nach Ansage"
     }
   ]
