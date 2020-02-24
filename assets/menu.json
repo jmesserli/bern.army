@@ -1,35 +1,35 @@
 {
-  "week": 8,
+  "week": 9,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Kalbspojarski an rustikaler Senfsauce, mit Peperonata und Spiralen",
-      "pasta-hit": "Cellentani ai funghi (Steinpilze, Zwiebeln und Tomatensauce)",
-      "nachtessen": "Rösti-Pastetli mit Fleischfüllung, Wurzelgemüse und grünem Salat"
+      "tagesteller": "Walliser Schnitzel, Broccoliröschen und Kartoffelgratin",
+      "pasta-hit": "Conchiglie mit Polpette und Champignonswürfel an Tomatensauce",
+      "nachtessen": "Hausgemachte Lasagne mit Rindshackfleisch"
     },
     "// Dienstag",
     {
-      "tagesteller": "Knusperdorschfilet (pol) und Kräuterquark, Rahmspinat und Salzkartoffeln\nDessert",
-      "pasta-hit": "Cellentani Alfredo (Rahmsauce mit Zwiebeln, Petersilie und Sbrinz)",
-      "nachtessen": "Müscheli-Gratin mit Lauch, Cherry-Tomaten und Freiburger-Vacherin"
+      "tagesteller": "Seelachs (pol) in Knusperpanade mit Kräuterquarksauce, Blattspinat und Saucenkartoffeln",
+      "pasta-hit": "Conchiglie mit Lauchstreifen an Frischkäsesauce",
+      "nachtessen": "Süsskartoffelburger mit schwarzem Sesam auf Kichererbsenstroganoff"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Schweinsrahmschnitzel mit Karottenscheiben und Zöpfli-Teigwaren",
-      "pasta-hit": "Cellentani al tonno (Thunfisch, Sardellen und schwarze Oliven)",
-      "nachtessen": "Käseschnitten \"Helena\" mit Vorderschinken, Birnen und Raclettekäse"
+      "tagesteller": "Pouletoberschenkel auf Tomaten-Peperonicoulis, Zucchettiwürfel\nmit Nudeln",
+      "pasta-hit": "Conchiglie mit Schinken-Käse-Sauce (Vorderschinkenwürfel und Gartenerbsen)\noder Tomatensauce",
+      "nachtessen": "Spätzli-Pfanne mit ger. Schweinshals, Gemüse und Champignons an Frischkäsesauce"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Pouletbrust an Orangensauce, Broccoliröschen und farbigem Reis\nDessert",
-      "pasta-hit": "Cellentani con mortadella (Mortadella, Zwiebeln, Peperonistreifen an Pestorahmsauce)\noder Tomatensauce",
-      "nachtessen": "Spaghetti all'amatriciana (Tomatensauce mit Speck, Zwiebeln, Knoblauch und Peperoncini)\noderTomatensauce"
+      "tagesteller": "Kalbsrahmgeschnetzeltes mit Champignons, Erbsen und Karotten, Bratkartoffeln",
+      "pasta-hit": "Conchiglie arrabiata mit rassiger Tomatensauce und Feta-Würfeln",
+      "nachtessen": "Tortelloni mit Spinat- und Ricottafüllung an Cinque Pi Sauce"
     },
     "// Freitag",
     {
-      "tagesteller": "Rindfleischvogel an Balsamicosauce\nKohlrabi und Kräuterpolenta",
-      "pasta-hit": "Cellentani alla nonna (Speck, Vorderschinken, Tomaten und Peperoni an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Nachtessen für Angemeldete\nMenü nach Ansage"
+      "tagesteller": "Rindsgulasch mit Gemüsewürfel und Perlzwiebeln, grünen Bohnen und Pilav-Reis",
+      "pasta-hit": "Conchiglie mit Tomaten-Peperonisauce",
+      "nachtessen": "Restaurant ab 13:15 Uhr geschlossen\nLunchbestellungen bis zum Frühstück"
     }
   ]
 }
