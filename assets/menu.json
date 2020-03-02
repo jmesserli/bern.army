@@ -1,35 +1,35 @@
 {
-  "week": 9,
+  "week": 10,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Walliser Schnitzel, Broccoliröschen und Kartoffelgratin",
-      "pasta-hit": "Conchiglie mit Polpette und Champignonswürfel an Tomatensauce",
-      "nachtessen": "Hausgemachte Lasagne mit Rindshackfleisch"
+      "tagesteller": "Rindsgeschnetzeltes mit getrockneten Tomaten und Champignons, Rübengemüse",
+      "pasta-hit": "Fusilli a la carbonara (mit Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce",
+      "nachtessen": "Älplermaggronen mit Apfelmus"
     },
     "// Dienstag",
     {
-      "tagesteller": "Seelachs (pol) in Knusperpanade mit Kräuterquarksauce, Blattspinat und Saucenkartoffeln",
-      "pasta-hit": "Conchiglie mit Lauchstreifen an Frischkäsesauce",
-      "nachtessen": "Süsskartoffelburger mit schwarzem Sesam auf Kichererbsenstroganoff"
+      "tagesteller": "Gebratenes Zanderfilet (rus) auf Lauchrahmgemüse mit Ofentomaten und Trockenreis\nDessert",
+      "pasta-hit": "Fusilli con pesto (Basilikum mit Pinienkernen, Sbrinz und Olivenöl)",
+      "nachtessen": "Heisser Fleischköse mit Kartoffelsalat"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Pouletoberschenkel auf Tomaten-Peperonicoulis, Zucchettiwürfel\nmit Nudeln",
-      "pasta-hit": "Conchiglie mit Schinken-Käse-Sauce (Vorderschinkenwürfel und Gartenerbsen)\noder Tomatensauce",
-      "nachtessen": "Spätzli-Pfanne mit ger. Schweinshals, Gemüse und Champignons an Frischkäsesauce"
+      "tagesteller": "Braunes Kalbsvoressen mit Karottenstengel und Bramata-Polenta",
+      "pasta-hit": "Fusilli con salmone (Rauchlachs (nor), Zwiebeln, Lauch und Dill an Weissweinsauce)\noder Tomatensauce",
+      "nachtessen": "Penne rigate mit Polpette al sugo (Tomatensauce mit Rindsmeatballs)"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Kalbsrahmgeschnetzeltes mit Champignons, Erbsen und Karotten, Bratkartoffeln",
-      "pasta-hit": "Conchiglie arrabiata mit rassiger Tomatensauce und Feta-Würfeln",
-      "nachtessen": "Tortelloni mit Spinat- und Ricottafüllung an Cinque Pi Sauce"
+      "tagesteller": "Pouletschenkelstreifen mit Peperoni und Oliven an Tomatenrahmsauce, Broccoliröschen und Pilav-Reis\nDessert",
+      "pasta-hit": "Fusilli bolognese (Rindshackfleisch mit Gemüse und Brauner Sauce)\noder Tomatensauce",
+      "nachtessen": "Rotes Gemüsecurry mit Quornstreifen auf Nestnudeln"
     },
     "// Freitag",
     {
-      "tagesteller": "Rindsgulasch mit Gemüsewürfel und Perlzwiebeln, grünen Bohnen und Pilav-Reis",
-      "pasta-hit": "Conchiglie mit Tomaten-Peperonisauce",
-      "nachtessen": "Restaurant ab 13:15 Uhr geschlossen\nLunchbestellungen bis zum Frühstück"
+      "tagesteller": "Schweins-Cordon-Bleu mit Peperonata und Zöpfli-Teigwaren",
+      "pasta-hit": "Fusilli cinque pi (Tomatenrahmsauce mit geschrotetem Pfeffer, Petersilie und Sbrinz)",
+      "nachtessen": "Unser Restaurant ist heute Abend geschlossen\nLunchbestellung bis zum Frühstück"
     }
   ]
 }
