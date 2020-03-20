@@ -51,7 +51,7 @@
                 Mittagessen
               </th>
               <td class="text-right">
-                11:30 - 13:15 Uhr
+                11:30 - 13:00 Uhr
               </td>
             </tr>
             <tr>
@@ -59,7 +59,7 @@
                 Nachtessen
               </th>
               <td class="text-right">
-                17:30 - 19:00 Uhr
+                17:30 - 18:45 Uhr
               </td>
             </tr>
           </tbody>
