@@ -175,15 +175,16 @@ export default {
       return ''
     },
     nextMenus() {
-      if (menu.week < moment().week()) {
+      if (menu.week < moment().isoWeek()) {
         return []
       }
 
-      const dayOfWeek = moment().day()
-      if (dayOfWeek < 1 || dayOfWeek > 5) {
-        // Sat & Sun
-        return []
-      }
+      const dayOfWeek = moment().isoWeekday()
+      // Schliesst Samstage und Sonntage aus
+      // if (dayOfWeek < 1 || dayOfWeek > 5) {
+      //   // Sat & Sun
+      //   return []
+      // }
 
       const dayMenus = menu.days.filter(function filter(x) {
         return typeof x !== 'string'
