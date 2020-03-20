@@ -73,7 +73,7 @@
 import moment from 'moment'
 import menu from '~/assets/menu.json'
 
-const dayOfWeek = moment().day()
+const dayOfWeek = moment().isoWeekday()
 
 export default {
   data() {
@@ -97,12 +97,14 @@ export default {
                 'Dienstag',
                 'Mittwoch',
                 'Donnerstag',
-                'Freitag'
+                'Freitag',
+                'Samstag',
+                'Sonntag'
               ]
-              let num = 0
+              let num = 1
               return function map(x) {
-                x.tag = weekdays[num]
-                x._rowVariant = dayOfWeek === num + 1 ? 'success' : 'default'
+                x.tag = weekdays[num - 1]
+                x._rowVariant = dayOfWeek === num ? 'success' : 'default'
 
                 num++
                 return x
@@ -114,7 +116,7 @@ export default {
   },
   computed: {
     outdated() {
-      const isoWeek = moment().week()
+      const isoWeek = moment().isoWeek()
       return isoWeek !== this.menu.week
     }
   }
