@@ -43,87 +43,62 @@
                     Montag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr
+                    07:00 - 11:30 Uhr
                   </td>
                 </tr>
                 <tr>
                   <th scope="row" />
                   <td class="text-right">
-                    12:30 - 14:00 Uhr
+                    12:30 - 18:30 Uhr
                   </td>
                 </tr>
-                <tr>
-                  <th scope="row" />
-                  <td class="text-right">
-                    17:00 - 18:30 Uhr
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">
+
                     Dienstag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr
+                    07:00 - 11:30 Uhr
                   </td>
                 </tr>
                 <tr>
                   <th scope="row" />
                   <td class="text-right">
-                    12:30 - 13:30 Uhr
+                    12:30 - 17:30 Uhr
                   </td>
                 </tr>
-                <tr>
-                  <th scope="row" />
-                  <td class="text-right">
-                    16:00 - 17:30 Uhr
-                  </td>
-                </tr>
-                <tr>
+
                   <th scope="row">
                     Mittwoch
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr
+                    07:00 - 11:30 Uhr
                   </td>
                 </tr>
                 <tr>
                   <th scope="row" />
                   <td class="text-right">
-                    12:30 - 13:00 Uhr
+                    12:30 - 18:30 Uhr
                   </td>
                 </tr>
-                <tr>
-                  <th scope="row" />
-                  <td class="text-right">
-                    16:15 - 18:30 Uhr
-                  </td>
-                </tr>
-                <tr>
+
                   <th scope="row">
                     Donnerstag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr
+                    07:00 - 11:30 Uhr
                   </td>
                 </tr>
                 <tr>
                   <th scope="row" />
                   <td class="text-right">
-                    12:30 - 13:30 Uhr
+                    12:30 - 18:30 Uhr
                   </td>
                 </tr>
-                <tr>
-                  <th scope="row" />
-                  <td class="text-right">
-                    16:00 - 18:30 Uhr
-                  </td>
-                </tr>
-                <tr>
+
                   <th scope="row">
                     Freitag
                   </th>
                   <td class="text-right">
-                    07:00 - 10:00 Uhr
+                    07:00 - 11:30 Uhr
                   </td>
                 </tr>
                 <tr>

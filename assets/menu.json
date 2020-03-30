@@ -1,29 +1,29 @@
 {
-  "week": 12,
+  "week": 13,
   "days": [
     "// Montag",
     {
-      "tagesteller": "Schweinsbraten mit Senfsauce, Karottenstengel und Spiralen",
-      "pasta-hit": "Cellentani al carbonara (Speck, Zwiebeln und Petersilie an Rahmsauce)\noder Tomatensauce",
-      "nachtessen": "Frühlingsrolle mit Curry-Dip-Sauce\nRisi e bisi"
+      "tagesteller": "Schweins-Gyros an Sauerrahmsauce mit grünen Bohnen und Brätlerkartoffeln",
+      "pasta-hit": "Penne ai funghi (Steinpilze und Zwiebeln an Tomatensauce)",
+      "nachtessen": "Bärner Hörnliauflauf mit Cervelat, Vorderschinken, Kartoffeln und Rüebli"
     },
     "// Dienstag",
     {
-      "tagesteller": "Dorschfilet (dk) auf Tomatensauce, Blattspinat und Würfelkartoffeln\nDessert",
-      "pasta-hit": "Cellentani con pesto (Basilikum, Pinienkerne, Sbrinz und Olivenöl)",
-      "nachtessen": "Linsengemüse mit Grillspeck vom Bierschwein"
+      "tagesteller": "Paniertes Seelachsfilet (pol) mit Tartar-Sauce, Broccoliröschen und Nudeln\nDessert",
+      "pasta-hit": "Penne alfredo\n(Zwiebeln, Sbrinz und Petersilie an Rahmsauce)",
+      "nachtessen": "Paella Valencia\n(Spanisches Reisgericht mit Gemüse und Pouletoberschenkel)"
     },
     "// Mittwoch",
     {
-      "tagesteller": "Schweinsbratwurst mit Zwiebelsauce, Ratatouille und Rösti",
-      "pasta-hit": "Cellentani con salmone (Weissweinsauce mit Rauchlachs (nor), Zwiebeln, Lauch und Dill)\noder Tomatensauce",
-      "nachtessen": "Penne al cosimo (Speckstreifen und Artischocken an Tomatensauce)\noder Tomatensauce"
+      "tagesteller": "Rindfleischvogel mit zweifarbigen Rüebli und Kräuterkartoffelstock",
+      "pasta-hit": "Penne al tonno\n(Thunfisch, Sardellen, schwarze Oliven und Tomatensauce)",
+      "nachtessen": "Walliser Rösti mit Tomaten und Raclettekäse"
     },
     "// Donnerstag",
     {
-      "tagesteller": "Kalbsrahm-Geschnetzeltes mit Champignons, Zucchettischeiben und Nudeln",
-      "pasta-hit": "Cellentani bolognese (Rindshackfleisch und Gemüse)\noder Tomatensauce",
-      "nachtessen": "Cheeseburger mit Coleslaw-Salat und Kartoffelschnitzen"
+      "tagesteller": "Poulet Cordon-Bleu, Peperonatagemüse und Weissweinrisotto\nDessert",
+      "pasta-hit": "Penne con mortadella (Mortadella, Zwiebeln und Peperoni an Pestorahmsauce)\noder Tomatensauce",
+      "nachtessen": "Tomatenstrudel mit buntem Gemüsesalat"
     },
     "// Freitag",
     {
